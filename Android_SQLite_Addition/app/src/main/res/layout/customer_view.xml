@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Date: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Nt2"
+        android:layout_toEndOf="@+id/imageShow"
+        android:id="@+id/Nt3"
+        tools:text="Date" />
+
+    <TextView
+        android:text="Time: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Nt4"
+        android:layout_below="@+id/Nt3"
+        android:layout_toEndOf="@+id/imageShow"
+        tools:text="Time" />
+
+    <TextView
+        android:text="Name: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Nt4"
+        android:layout_toEndOf="@+id/imageShow"
+        android:id="@+id/Nt5"
+        tools:text="Name" />
+
+    <TextView
+        android:text="Activity Name: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Nt1"
+        tools:text="Activity"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageShow" />
+
+    <TextView
+        android:text="Location: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Nt2"
+        android:layout_below="@+id/Nt1"
+        android:layout_toEndOf="@+id/imageShow" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tActivity"
+        android:layout_alignEnd="@+id/tActivity"
+        android:id="@+id/tLocation"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tLocation"
+        android:layout_alignEnd="@+id/tLocation"
+        android:id="@+id/tDate"
+        android:textColor="@android:color/holo_green_light" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tTime"
+        android:layout_alignStart="@+id/tTime"
+        android:id="@+id/tName"
+        android:textColor="@android:color/holo_orange_dark" />
+
+    <ImageView
+        android:layout_width="250px"
+        android:layout_height="250px"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/imageShow"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tTime"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_below="@+id/tDate"
+        android:layout_alignStart="@+id/tDate" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tActivity"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/Nt1"
+        android:layout_marginStart="31dp" />
+
+</RelativeLayout>
