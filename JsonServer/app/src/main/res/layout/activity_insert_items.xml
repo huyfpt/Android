@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ee56eff7"
+    tools:context="com.demo29.jsonserver.Insert_items">
+    <TextView
+        android:id="@+id/textviewTitleThemSP"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#ff00"
+        android:textSize="34sp"
+        android:text="Thêm sản phẩm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextTenSP"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/textviewTitleThemSP"
+        android:hint="Nhập tên"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextGiaSP"
+        android:layout_below="@id/editTextTenSP"
+        android:inputType="number"
+        android:hint="Nhập giá"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextMoTa"
+        android:maxLines="5"
+        android:layout_below="@id/editTextGiaSP"
+        android:hint="Nhập mô tả"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/editTextMoTa"
+        android:id="@+id/buttonThem"
+        android:text="Thêm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_toRightOf="@id/buttonThem"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/editTextMoTa"
+        android:id="@+id/buttonHuy"
+        android:text="Hủy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

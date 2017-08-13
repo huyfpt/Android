@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageViewImage"
+        android:padding="10dp"/>
+
+    <TextView
+        android:text="TextView"
+        android:textColor="#F12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewName"
+        android:layout_toRightOf="@+id/imageViewImage"
+        android:layout_toEndOf="@+id/imageViewImage"
+        android:id="@+id/textViewAddress" />
+
+    <TextView
+        android:text="TextView"
+        android:textColor="#ff0"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageViewImage"
+        android:layout_toEndOf="@+id/imageViewImage"
+        android:layout_marginTop="14dp"
+        android:id="@+id/textViewName" />
+
+    <TextView
+        android:text="TextView"
+        android:textColor="#f76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewAge"
+        android:layout_below="@+id/textViewAddress"
+        android:layout_toRightOf="@+id/imageViewImage"
+        android:layout_toEndOf="@+id/imageViewImage" />
+</RelativeLayout>
