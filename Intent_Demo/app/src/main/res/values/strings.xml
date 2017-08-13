@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Intent_Demo</string>
+    <string name="title_activity_second_page">SecondPage</string>
+</resources>

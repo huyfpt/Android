@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kpt.tienminh.hieuung_animation2609.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewAlpha"
+        android:src="@drawable/android_alpha"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:src="@drawable/ball"
+        android:id="@+id/imageviewScale"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageViewAlpha"
+        android:layout_toEndOf="@+id/imageViewAlpha" />
+
+    <ImageView
+        android:id="@+id/imageviewTranslate"
+        android:layout_below="@id/imageViewAlpha"
+        android:src="@drawable/motorcycle"
+        android:layout_width="150dp"
+        android:layout_height="100dp" />
+
+
+    <ImageView
+        android:src="@drawable/bell"
+        android:id="@+id/imageviewRotate"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageviewScale"
+        android:layout_toEndOf="@+id/imageviewScale" />
+
+    <ImageView
+        android:src="@drawable/question"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_below="@+id/imageviewTranslate"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageViewZoom" />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:start="@dimen/activity_vertical_margin" android:left="350dp">
+    <color android:color="#e21"/>
+</item>
+    <item android:gravity="end">
+        <color android:color="#e000"/>
+    </item>
+</layer-list>
