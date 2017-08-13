@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Resource_String</string>
+    <string name="text_Confirm">Xác nhận</string>
+    <string name="text_Email">Nhập email</string>
+    <string name="text_Phone">Nhập sdt</string>
+    <string name="text_information">Thông tin</string>
+    <string name="text_Name">Nhập tên</string>
+    <string name="text_export">Tên, Email, Sdt</string>
+    <string name="Text_ten">Họ Tên:</string>
+    <string name="Text_phoneNum">Số Điện Thoại</string>
+</resources>

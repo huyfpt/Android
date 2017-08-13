@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Resource_String</string>
+    <string name="text_information">Information</string>
+    <string name="text_Email">Input Email</string>
+    <string name="text_Phone">Input Phone number</string>
+    <string name="text_Confirm">Confirm</string>
+    <string name="text_Name">Input Name</string>
+    <string name="text_export">Name, Email, phone</string>
+    <string name="Text_ten">yourName</string>
+    <string name="Text_phoneNum">yourNumber</string>
+</resources>
